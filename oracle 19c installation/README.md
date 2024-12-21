@@ -44,6 +44,15 @@ This guide provides detailed steps to install Oracle Database 19c on Oracle Linu
    ```
 
 ---
+# Configuring Hostname and Hosts File
+
+Ensure the `/etc/hosts` file contains a fully qualified name for the server
+
+
+Set the correct hostname in the `/etc/hostname` file
+
+
+---
 
 ## Step 7: Install and Configure VNC for GUI Access
 1. Install a graphical environment and VNC server:
@@ -122,7 +131,37 @@ export CV_ASSUME_DISTID=OEL8.8
 ./runInstaller
 ```
 
-1. Add these variables to `~/.bashrc`:
+
+
+## Notes
+- Ensure you follow each step carefully to avoid installation errors.
+- Oracle Linux ISOs and Database software can be downloaded from Oracle's official site.
+
+
+## follow the pictures and you can change the configuration as you wish:
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+### here run the these two scripts with root user 
+![alt text](image-9.png)
+
+1. Add these variables to `~/.bashrc` with oracle user:
    ```bash
    export ORACLE_BASE=/u01/oracle
    export ORACLE_HOME=/u01/oracle/product/19.3.0.0/dbhome_1
@@ -134,8 +173,3 @@ export CV_ASSUME_DISTID=OEL8.8
    ```
 
 ---
-
-## Notes
-- Ensure you follow each step carefully to avoid installation errors.
-- Oracle Linux ISOs and Database software can be downloaded from Oracle's official site.
-
