@@ -2,6 +2,9 @@
 
 This guide provides detailed steps to install Oracle Database 19c on Oracle Linux using VirtualBox. Written by Partow Moradi.
 
+![alt text](image-10.png)
+![alt text](image-11.png)
+
 ## Step 1: Install VirtualBox
 1. Go to the [VirtualBox Downloads page](https://www.virtualbox.org/wiki/Downloads) and download the installer for your operating system.
 2. Install VirtualBox following the instructions for your OS.
