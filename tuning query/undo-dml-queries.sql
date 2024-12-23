@@ -1,1 +1,0 @@
-select * from fcbn.t_lastprolog AS OF TIMESTAMP(SYSTIMESTAMP-INTERVAL'9000' minute)

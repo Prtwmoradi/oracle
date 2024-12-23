@@ -1,1 +1,0 @@
-select * from DBA_INDEXES where STATUS='UNUSABLE' and owner='...'
